@@ -1,0 +1,13 @@
+[template]
+keys = [
+"/settings/clustername",
+"/settings/listenaddress",
+"/settings/rpcaddress",
+"/settings/broadcastaddress",
+"/settings/seeds",
+]
+owner = "cassandra"
+group = "cassandra"
+mode = "0644"
+src = "cassandra.yaml.tmpl"
+dest = "/etc/cassandra/conf/cassandra.yaml"

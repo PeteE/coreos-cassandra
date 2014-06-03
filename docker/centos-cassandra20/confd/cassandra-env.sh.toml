@@ -1,0 +1,10 @@
+[template]
+keys = [
+"/settings/maxheapsize",
+"/settings/heapnewsize",
+]
+owner = "cassandra"
+group = "cassandra"
+mode = "0644"
+src = "cassandra-env.sh.tmpl"
+dest = "/etc/cassandra/conf/cassandra-env.sh"
